@@ -1,0 +1,30 @@
+{
+    "model_type": "genuine_reference_anomaly_detection",
+    "base_model": "MobileNetV2 ImageNet",
+    "denomination": "200",
+    "genuine_reference_count": 12,
+    "reference_files": [
+        "200_user_back_01.jpg",
+        "200_user_back_02.jpg",
+        "200_user_back_03.jpg",
+        "200_user_back_04.jpg",
+        "200_user_back_05.jpg",
+        "200_user_back_06.jpg",
+        "200_user_back_07.jpg",
+        "200_user_back_08.jpg",
+        "200_user_back_09.jpg",
+        "200_user_front_01.jpg",
+        "200_user_front_02.jpg",
+        "200_user_front_03.jpg"
+    ],
+    "embedding_dimension": 1280,
+    "image_size": [
+        224,
+        224
+    ],
+    "epochs_requested": 30,
+    "reconstruction_threshold": 0.7366857528686523,
+    "distance_threshold": 57.083030700683594,
+    "counterfeit_detection_claim": false,
+    "interpretation": "Consistent means visually close to the available genuine-reference distribution. Unusual means a visual pattern outside that distribution. It does not prove that a banknote is counterfeit."
+}

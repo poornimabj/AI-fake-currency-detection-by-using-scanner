@@ -1,0 +1,28 @@
+{
+    "model_type": "genuine_reference_anomaly_detection",
+    "base_model": "MobileNetV2 ImageNet",
+    "denomination": null,
+    "genuine_reference_count": 9,
+    "augmented_image_count": 27,
+    "embedding_dimension": 1280,
+    "image_size": [
+        224,
+        224
+    ],
+    "epochs_requested": 30,
+    "reconstruction_threshold": 0.6109602451324463,
+    "distance_threshold": 1.5903629064559937,
+    "reference_files": [
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_01.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_02.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_03.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_04.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_05.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_06.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_07.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\user_verified_genuine_08.jpg",
+        "E:\\SmartRupee_all_currency_training\\fake_currecy_detection-main\\dataset\\train\\genuine\\verified_issued_genuine_20_01.png"
+    ],
+    "counterfeit_detection_claim": false,
+    "interpretation": "The model checks visual consistency with available genuine-reference images. An unusual result does not prove that a note is counterfeit. A consistent result does not certify authenticity."
+}

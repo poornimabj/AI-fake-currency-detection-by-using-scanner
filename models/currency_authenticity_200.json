@@ -1,0 +1,50 @@
+{
+    "model_type": "experimental_user_labeled_200_image_classifier",
+    "denomination": "200",
+    "classes": [
+        "fake",
+        "genuine"
+    ],
+    "class_counts": {
+        "genuine": 12,
+        "fake": 11
+    },
+    "training_images": {
+        "genuine": [
+            "200_user_back_01.jpg",
+            "200_user_back_02.jpg",
+            "200_user_back_03.jpg",
+            "200_user_back_04.jpg",
+            "200_user_back_05.jpg",
+            "200_user_back_06.jpg",
+            "200_user_back_07.jpg",
+            "200_user_back_08.jpg",
+            "200_user_back_09.jpg",
+            "200_user_front_01.jpg",
+            "200_user_front_02.jpg",
+            "200_user_front_03.jpg"
+        ],
+        "fake": [
+            "fake200_01.jpg",
+            "fake200_02.jpg",
+            "fake200_03.jpg",
+            "fake200_04.jpg",
+            "fake200_05.jpg",
+            "fake200_06.jpg",
+            "fake200_07.jpg",
+            "fake200_08.jpg",
+            "fake200_09.jpg",
+            "fake200_10.jpg",
+            "fake200_11.jpg"
+        ]
+    },
+    "training_accuracy": 1.0,
+    "training_accuracy_is_not_validation": true,
+    "validation_status": "No independent-note validation set was supplied. Images may show the same physical note or repeated specimen designs.",
+    "label_source": "Labels were supplied by the user and were not independently authenticated.",
+    "decision_thresholds": {
+        "fake_score_minimum": 0.6,
+        "genuine_score_minimum": 0.6
+    },
+    "score_warning": "Logistic-regression scores are uncalibrated and are not probabilities of authenticity."
+}
